@@ -13,6 +13,13 @@
       "email": "ath@gmail.com",
       "password": "mansraj",
       "id": 2
+    },
+    {
+      "firstname": "Abhishek",
+      "lastname": "Jadhav",
+      "email": "www.abhishek3jadhav@gmail.com",
+      "password": "12345678",
+      "id": 3
     }
   ]
 }
