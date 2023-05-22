@@ -15,7 +15,7 @@ const routes: Routes = [
     path: 'signup', component: SignupComponent
   },
   {
-    path: 'dashboard', component: DashboardComponent 
+    path: 'dashboard', component: DashboardComponent
   }
 ];
 
