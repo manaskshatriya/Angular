@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'userRegister';
+  title = 'Registration Form';
+  displayname = '';
+  displayemail = '';
+
+  onSubmit(name: string , email: string ) {
+    this.displayname = name;
+    this.displayemail = email;
+  }
 }

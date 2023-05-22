@@ -1,0 +1,28 @@
+<div>
+    <form [formGroup] = "signup" (ngSubmit)="signupdata(signup)">
+        <h3>Sign Up</h3>
+        <div>
+            <label style="margin: 20px;" >Firstname</label>
+            <input style="margin-left:10px ; margin-top: 10px;" type="text" formControlName="firstname" placeholder="Enter Firstname"/>
+        </div>
+        <div>
+            <label style="margin: 20px;" >Lastname</label>
+            <input style="margin-left:10px ; margin-top: 10px;" type="text" formControlName="lastname" placeholder="Enter Lastname"/>
+        </div>
+        <div>
+            <label style="margin: 20px;" >Email</label>
+            <input style="margin-left:10px ; margin-top: 10px;" type="text" formControlName="email" placeholder="Enter Email"/>
+        </div>
+        <div>
+            <label style="margin: 20px;" >Password</label>
+            <input style="margin-left:10px ; margin: 10px;" type="password" formControlName="password" placeholder="Enter password"/>
+        </div>
+
+        <span style="margin: 20px;" >You already have a account <a routerLink="">Login</a> </span>
+        <br>
+        <button type="submit" style="margin: 20px;" type="submit" >Signup</button>
+    </form> 
+</div>
+
+<router-outlet></router-outlet>
+ 

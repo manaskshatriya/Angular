@@ -1,0 +1,18 @@
+{
+  "signup": [
+    {
+      "firstname": "Manas",
+      "lastname": "KShatriya",
+      "email": "manaskshatriya01@gmail.com",
+      "password": "12345678",
+      "id": 1
+    },
+    {
+      "firstname": "Atharva",
+      "lastname": "Nagmoti",
+      "email": "ath@gmail.com",
+      "password": "mansraj",
+      "id": 2
+    }
+  ]
+}
